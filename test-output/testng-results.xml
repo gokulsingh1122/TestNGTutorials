@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="9" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-16T20:24:17 IST" name="Suite" finished-at="2024-09-16T20:24:18 IST" duration-ms="38">
+    <groups>
+      <group name="Smoke">
+        <method signature="basics.first()[pri:0, instance:test.basics@498d318c]" name="first" class="test.basics"/>
+        <method signature="basics2.test()[pri:0, instance:test.basics2@7334aada]" name="test" class="test.basics2"/>
+        <method signature="basics3.MobileLoginCarLoan()[pri:0, instance:test.basics3@1d9b7cce]" name="MobileLoginCarLoan" class="test.basics3"/>
+        <method signature="basics4.MobileLoginHomeLoan()[pri:0, instance:test.basics4@4d9e68d0]" name="MobileLoginHomeLoan" class="test.basics4"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-09-16T20:24:17 IST" name="Regression" finished-at="2024-09-16T20:24:18 IST" duration-ms="38">
+      <class name="test.basics">
+        <test-method signature="first()[pri:0, instance:test.basics@498d318c]" started-at="2024-09-16T20:24:18 IST" name="first" finished-at="2024-09-16T20:24:18 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- test.basics -->
+      <class name="test.basics3">
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:test.basics3@1d9b7cce]" started-at="2024-09-16T20:24:18 IST" name="MobileLoginCarLoan" finished-at="2024-09-16T20:24:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+      </class> <!-- test.basics3 -->
+      <class name="test.basics4">
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.basics4@4d9e68d0]" started-at="2024-09-16T20:24:18 IST" name="MobileLoginHomeLoan" finished-at="2024-09-16T20:24:18 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+      </class> <!-- test.basics4 -->
+      <class name="test.basics2">
+        <test-method signature="test()[pri:0, instance:test.basics2@7334aada]" started-at="2024-09-16T20:24:18 IST" name="test" finished-at="2024-09-16T20:24:18 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- test.basics2 -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>
